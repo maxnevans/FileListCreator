@@ -54,7 +54,7 @@ int wmain(int argc, wchar_t** argv)
 			wprintf(L"Usage:\n"
 				"\t%s                    -    Creates default output file \"%s\" if it does not exist, otherwise returns failure\n"
 				"\t%s --rewrite          -    Rewrites default \"%s\" files list output file\n"
-				"\t%s <output> <input>   -    Creates output file that contains all file names and edit dates form <input> dir", 
+				"\t%s <output> <input>   -    Creates output file that contains all file names and edit dates form <input> dir\n", 
 				executableFileName, DEFAULT_OUTPUT_FILENAME, 
 				executableFileName, DEFAULT_OUTPUT_FILENAME, 
 				executableFileName
